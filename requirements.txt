@@ -1,0 +1,26 @@
+# 基礎深度學習與 Web 框架
+torch
+torchvision
+torchaudio
+gradio==4.12.0  # 建議固定版本以維持 UI 穩定
+numpy==1.23.5   # 避免版本衝突
+
+# 影像處理與電腦視覺
+opencv-python
+pillow
+scipy
+imageio
+imageio-ffmpeg
+facexlib        # 用於臉部偵測
+dlib            # 用於特徵點定位
+
+# 音訊處理與 TTS
+librosa
+edge-tts        # 強烈推薦：微軟免費的擬真語音引擎
+pydub           # 用於音訊格式轉換
+
+# 預測模型相關
+safetensors
+kornia
+yacs
+gdown           # 若需要從雲端下載模型權重
